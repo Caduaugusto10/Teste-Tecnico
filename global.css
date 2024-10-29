@@ -1,0 +1,59 @@
+*{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.text-sneaker {
+    font-family: "Anton", sans-serif;
+    letter-spacing: 1.5px;
+    color:white;
+    margin-left: 5rem;
+    padding: 2rem;
+}
+
+.box-esq {
+    width: 50%;
+    background-color: #000000; 
+    padding: 20px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.box-dir {
+    width: 50%;
+    background-color: beige;
+    padding: 20px;
+}
+
+.caixa {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+section {
+    width: 50%;
+}
+
+.text-info {
+    font-family: "PT Sans", sans-serif;
+    color: aliceblue;
+    background-color: #000000;
+    margin-left: 6.5rem;
+    margin-top: 7rem;
+}
+
+.line {
+    width: 23%;
+    height: 1.3%;
+    background-color: rgb(54, 51, 51);
+    margin-left: 5rem;
+    margin-top: 1rem;
+}
