@@ -22,14 +22,16 @@
 
 .box-dir {
     width: 50%;
-    background-color: beige;
+    background-color: rgb(228, 224, 224);
     padding: 20px;
 }
 
 .caixa {
     display: flex;
     justify-content: flex-end;
-    align-items: flex-start;
+    padding-right: 10rem;
+    padding: 2rem;
+    gap: 2rem;
 }
 
 header {
@@ -52,8 +54,47 @@ section {
 
 .line {
     width: 23%;
-    height: 1.3%;
+    height: 0.5%;
     background-color: rgb(54, 51, 51);
-    margin-left: 5rem;
+    margin-left: 6.5rem;
     margin-top: 1rem;
+}
+
+.cartao {
+    margin-left: 27rem;
+    margin-top: 5rem;
+}
+
+.box-t1 {
+    display: flex;
+    width: 90%;
+    background-color: #ffffff; 
+    padding: 70px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 5rem;
+}
+
+.box-t2 {
+    display: flex;
+    width: 90%;
+    background-color: #ffffff; 
+    padding: 70px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 1rem;
+
+}
+
+.box-t3 {
+    display: flex;
+    width: 90%;
+    background-color: #ffffff; 
+    padding: 70px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 1rem;
+}
+.box-itens{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
